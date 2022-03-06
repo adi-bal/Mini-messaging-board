@@ -6,8 +6,7 @@ let date2 = moment().startOf('hour').fromNow();
 const messages = [
   {
     title: 'new message',
-    description:
-      'message 1',
+    description: 'message 1',
     username: 'Haresh',
     date: date2,
   },
