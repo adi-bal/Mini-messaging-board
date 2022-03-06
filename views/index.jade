@@ -5,7 +5,7 @@ block content
     p= 'Speak your mind'
   main
     .button-container
-      a(href="http://localhost:3000"): button.compose= "Add new message"
+      a(href="http://localhost:" + 3000 + "/new"): button.compose= "Add new message"
     each message in messages 
       section.message-card 
         h2= message.title
