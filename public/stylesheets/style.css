@@ -1,8 +1,18 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: azure;
+  color: black;
 }
-
+h1{
+  color: #00B7FF;
+}
 a {
   color: #00B7FF;
+}
+button{
+  background-color: #00B7FF;
+  width: 200px;
+  height: 50px;
+  border-radius: 10rem;
 }
